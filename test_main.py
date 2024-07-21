@@ -9,7 +9,7 @@ class SmartDiet:
     def add_food(self, title, count):
         self.total_calories += self.food[title] * count
 
-    def calculate(self)
+    def calculate(self):
         return self.total_calories
 
 
